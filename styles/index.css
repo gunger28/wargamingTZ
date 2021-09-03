@@ -1,0 +1,338 @@
+body {
+  width: 100vw;
+  height: 1000vh;
+}
+
+.btnsPane {
+  background-color: #161a26;
+  width: 560px;
+  height: 50px;
+  margin: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2px solid #3caa90;
+}
+
+.btnsPane button {
+  background-color: #161a2600;
+  border: none;
+  cursor: pointer;
+  width: 188px;
+  height: 40px;
+  margin: auto 0;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  color: #f1c564;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 27px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btnsPane button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.Comander_skill_desc {
+  background-image: url(/assets/back.png);
+  background-color: #161a26;
+  margin: auto auto;
+  width: 560px;
+  height: 1000px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 130px 60px 100px;
+      grid-template-rows: 130px 60px 100px;
+  padding-top: 10px;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.Comander_skill_desc .Skill_name {
+  width: 540px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+.Comander_skill_desc .Skill_name .Skill_img {
+  width: 110px;
+  height: 110px;
+  margin: auto auto;
+  z-index: 10;
+  position: relative;
+}
+
+.Comander_skill_desc .Skill_name .Skill_img .img {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  right: 0;
+  background-image: url(/assets/icons/blades.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  z-index: 10;
+}
+
+.Comander_skill_desc .Skill_name .Skill_img .Stroke {
+  position: absolute;
+  z-index: 1;
+  background-color: #328a78;
+  width: 100%;
+  height: 100%;
+  -webkit-clip-path: polygon(55% 0%, 80% 0, 60% 100%, 35% 100%);
+          clip-path: polygon(55% 0%, 80% 0, 60% 100%, 35% 100%);
+}
+
+.Comander_skill_desc .Skill_name .Skill_info {
+  width: 370px;
+  height: 110px;
+  margin: auto auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 29% 29% 29%;
+      grid-template-rows: 29% 29% 29%;
+}
+
+.Comander_skill_desc .Skill_name .Skill_info .Info_name {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Comander_skill_desc .Skill_name .Skill_info .Info_type {
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+  color: #3eae93;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Comander_skill_desc .Skill_name .Skill_info .Info_singularity {
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+  color: #735f39;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Comander_skill_desc .Skill_Status {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 540px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Comander_skill_desc .Skill_Status .Status_img {
+  width: 50px;
+  height: 30px;
+  margin: auto 0;
+  margin-left: 10px;
+  background-image: url(/assets/icons/check.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Comander_skill_desc .Skill_Status .Status_info {
+  width: 450px;
+  height: 50px;
+  margin: auto 0;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 600;
+  color: #facb66;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 27px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.Comander_skill_desc .Skill_Description {
+  width: 540px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Comander_skill_desc .Skill_Description .Description_text {
+  width: 500px;
+  height: 90px;
+  margin: auto auto;
+  font-family: "Roboto";
+  color: white;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 22px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.Comander_skill_desc .Options_panes {
+  width: 540px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.Comander_skill_desc .Options_panes .Option {
+  background-color: rgba(255, 255, 255, 0);
+  width: 540px;
+  height: 120px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50% 30%;
+      grid-template-rows: 50% 30%;
+}
+
+.Comander_skill_desc .Options_panes .Option:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Comander_skill_desc .Options_panes .Option .Option_info {
+  width: 500px;
+  margin: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Comander_skill_desc .Options_panes .Option .Option_info .Option_status_img {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 100%;
+  border: 2px solid white;
+  margin: auto 0;
+}
+
+.Comander_skill_desc .Options_panes .Option .Option_info .Option_status_img .part {
+  width: 24px;
+  height: 24px;
+  margin: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 100%;
+}
+
+.Comander_skill_desc .Options_panes .Option .Option_info .Option_name {
+  width: 450px;
+  margin-left: 10px;
+  font-family: "Roboto";
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 22px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.Comander_skill_desc .Options_panes .Option .Option_desc {
+  width: 500px;
+  margin: auto auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Comander_skill_desc .Options_panes .Option .Option_desc .Desc {
+  width: 180px;
+  font-family: "Roboto";
+  color: white;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 22px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.Comander_skill_desc .Options_panes .Option .Option_desc .separator {
+  background-color: #31353f;
+  height: 2px;
+  min-width: 250px;
+  margin: auto auto;
+}
+
+.Comander_skill_desc .Options_panes .Option .Option_desc .Option_strenght {
+  margin-left: auto;
+  font-family: "Roboto";
+  color: #3eb689;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 22px;
+  display: -ms-grid;
+  display: grid;
+}
+/*# sourceMappingURL=index.css.map */
